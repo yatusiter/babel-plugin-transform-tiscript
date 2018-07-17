@@ -10,7 +10,7 @@
 
 #General purpose
 ---
-    Tiscript is a Javascript++(1.x) and without browser specified apis supported desktop ui engine based script.
+    Tiscript is a Javascript++(1.x) without browser specified apis supported desktop ui engine based script.
     It's imposible using javascript libraries in tiscript directly, some are write affixed to browser apis, or using ES6 syntax, 
     or using CMD/AMD/UMD module managment etc. 
 
