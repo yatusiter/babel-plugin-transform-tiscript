@@ -3,6 +3,11 @@
     Author : chenfeng@xyzq.com.cn
     Date   : 2018-5-7
 
+#Thanks
+---
+    https://github.com/babel/babel
+    https://github.com/ecomfe/zrender
+
 #General purpose
 ---
     Tiscript is a Javascript++(1.x) and without browser specified apis supported desktop ui engine based script.
@@ -16,8 +21,6 @@
     Babel is aiming the same goal as transpile script to run in universal browser environments. That's inspired me to dig deeper 
     If there is a way to write a babel plugin for tiscript, using the plugin we can transpile some javascript libraries 
     not affixed to browser apis.Some syntax that only supported in tiscript will handled by magic string replacement(dist/util.js).
-
-    Further more, we can get some ui framework like React/AngularJS work for sciter.
 
 #Babel Transform
 ---
@@ -42,6 +45,7 @@
 3. TRANSLATE Javascript 
 
     See scripts/README.md for details.
+
 
 #Sciter/Javascript Transform Notes 
 --- 
