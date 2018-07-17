@@ -1,0 +1,27 @@
+{
+    "name": "sciter-trans",
+    "version": "0.1.0",
+    "author": "chenfeng@xyzq.com.cn",
+    "license": "DO WHATEVER YOU WANT",
+    "description": "Transform javascript to tiscript.\n Thanks https://github.com/furstenheim/babel-plugin-meaningful-logs furstenheim for the basic plugin project framework.",
+    "main": "transform.js",
+    "repository": {
+        "type": "svn",
+        "url": ""
+    },
+    "scripts": {
+        "trans": "node transform.js"
+    },
+    "keywords": [
+        "tiscript",
+        "sciter",
+        "babel-plugin"
+    ],
+    "devDependencies": {
+    },
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0"
+    }
+}

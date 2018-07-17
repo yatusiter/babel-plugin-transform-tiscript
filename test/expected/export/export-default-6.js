@@ -1,0 +1,2 @@
+
+class sciter_default {}
