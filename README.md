@@ -10,8 +10,8 @@
 
 #General purpose
 ---
-    Tiscript is a Javascript++(1.x) without browser specified apis supported desktop ui engine based script.
-    It's imposible using javascript libraries in tiscript directly, some are write affixed to browser apis, or using ES6 syntax, 
+    Tiscript is a Javascript++(1.x) without browser specified APIS supported desktop ui engine based script.
+    It's imposible using javascript libraries in tiscript directly, some are write affixed to browser APIS, or using ES6 syntax, 
     or using CMD/AMD/UMD module managment etc. 
 
     Sciter engine support HTML for rendering UI, it's valuable to transpile numerous javascript libraries for sciter.
@@ -20,7 +20,7 @@
 
     Babel is aiming the same goal as transpile script to run in universal browser environments. That's inspired me to dig deeper 
     If there is a way to write a babel plugin for tiscript, using the plugin we can transpile some javascript libraries 
-    not affixed to browser apis.Some syntax that only supported in tiscript will handled by magic string replacement(dist/util.js).
+    not affixed to browser APIS.Some syntax that only supported in tiscript will handled by magic string replacement(dist/util.js).
 
 #Babel Transform
 ---
@@ -58,9 +58,9 @@ references :
 
 0.  Transform ' to "
     Note : 
-        Tiscript use '' for charactor just like c/c++
+        Tiscript use '' for character just like c/c++
     
-    Tranpile : 
+    Transpile : 
         Use StringLiteral to identify and replace ' to ", also use escape
         character for transform " to \" inside the string.
 
@@ -256,6 +256,6 @@ references :
 
     Transpile : 
 
-12. Sciter doesn't support ',' statement.
+12. Sciter doesn't support ',' statement.(Working)
 
-        
+     
