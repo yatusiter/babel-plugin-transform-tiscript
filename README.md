@@ -5,6 +5,7 @@
 
 #Thanks
 ---
+    https://github.com/c-smile/sciter-sdk
     https://github.com/babel/babel
     https://github.com/ecomfe/zrender
 
